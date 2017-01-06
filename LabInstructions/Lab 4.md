@@ -123,7 +123,7 @@
 25. In each client project, add the following key/value to bootstrap.yml (or bootstrap.properties), using correct YAML formatting: 
   - spring.cloud.config.uri: http://localhost:8001.
   
-26. Add an additional dependency for spring-cloud-config-client. 
+26. Add an additional dependency for spring-cloud-config-client, en each client too. 
 
 27. Make sure the Eureka server is still running.  Start (or restart) each client. Open [http://localhost:8020/sentence](http://localhost:8020/sentence) to see the completed sentence.
 
